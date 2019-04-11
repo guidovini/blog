@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `GuiD Blog`,
+    title: `The Garden of Madness`,
     author: `Guido Santillan`,
     description: `A simple blog.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    siteUrl: `https://adoring-swanson-086160.netlify.com/`,
     social: {
       twitter: `kylemathews`,
     },
