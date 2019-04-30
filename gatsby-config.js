@@ -2,13 +2,14 @@ module.exports = {
   siteMetadata: {
     title: `The Garden of Madness`,
     author: `Guido Santillan`,
-    description: `A simple blog.`,
+    description: `A simple blog from Guido Santillan.`,
     siteUrl: `https://adoring-swanson-086160.netlify.com/`,
     social: {
       twitter: `kylemathews`,
     },
   },
   plugins: [
+    'gatsby-plugin-sass',
     {
       resolve: `gatsby-source-filesystem`,
       options: {
