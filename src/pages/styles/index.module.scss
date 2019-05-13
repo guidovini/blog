@@ -1,0 +1,21 @@
+@import '../../styles/index.scss';
+@import '../../styles/variables.scss';
+
+.text {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 2.5rem;
+  text-align: center;
+}
+
+strong {
+  color: $primary-color;
+}
+
+// .important {
+//   font-weight: bold;
+//   margin: 0;
+//   padding: 0;
+//   white-space: nowrap;
+// }

@@ -1,16 +1,15 @@
 import React from 'react'
-import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
 import Head from '../components/head'
 
+import indexStyles from './styles/index.module.scss'
+
 const BlogIndex = () => {
   return (
-    <Layout>
+    <Layout header={false}>
       <Head title="Home" />
-      <h1>Hello</h1>
-      <h2>I'm Guido Santillan, a full-stack developer living in Berlin.</h2>
-      <p>Need a developer? <Link to='/contact '>Contact Me.</Link></p>
+      <h2 className={indexStyles.text}>I'm <strong>Guido Santillan</strong>, a <strong className={indexStyles.important}>full-stack developer</strong> currently living in <strong className={indexStyles.important}>Quito</strong>, Ecuador.</h2>
     </Layout>
   )
 }

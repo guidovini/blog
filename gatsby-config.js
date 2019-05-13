@@ -1,11 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `The Garden of Madness`,
-    author: `Guido Santillan`,
-    description: `A simple blog from Guido Santillan.`,
+    title: `Guido Santillan`,
+    author: `Guido Santillan Arias`,
+    year: '2019',
+    description: `Guido Santillan | Full Stack Developer`,
     siteUrl: `https://adoring-swanson-086160.netlify.com/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: 'guidosantillan01',
+      linkedin: 'guido92',
+      github: 'guidosantillan01'
     },
   },
   plugins: [

@@ -1,0 +1,45 @@
+@import '../../styles/variables';
+
+.header {
+  padding: 1rem 0 3rem;
+
+  display: flex;
+}
+
+.title {
+  color: $strong-gray;
+  font-size: 3rem;
+  text-decoration: none;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  align-content: center;
+}
+
+.nav-list {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+}
+
+.nav-item {
+  color: $light-gray;
+  font-size: 1rem;
+  margin-right: 1.3rem;
+  text-decoration: none;
+
+  &:hover {
+    color: $gray;
+  }
+}
+
+.active-nav-item {
+  color: $primary-color;
+}
+
+.logo {
+  height: 90px;
+  justify-content: flex-start;
+}
