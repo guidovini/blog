@@ -1,11 +1,15 @@
 @import '../../styles/index.scss';
 @import '../../styles/variables.scss';
 
+.main {
+  margin: 3.5rem 0;
+}
+
 .text {
   font-style: normal;
   font-weight: 300;
-  font-size: 32px;
-  line-height: 2.5rem;
+  font-size: 36px;
+  line-height: 2.75rem;
   text-align: center;
 }
 
@@ -13,9 +17,37 @@ strong {
   color: $primary-color;
 }
 
-// .important {
-//   font-weight: bold;
-//   margin: 0;
-//   padding: 0;
-//   white-space: nowrap;
-// }
+.logos {
+  display: flex;
+
+  justify-content: center;
+}
+
+.logo {
+  width: 7rem;
+  height: 7rem;
+  padding: 1.5rem;
+
+  filter: opacity(0.4);
+
+  &:hover {
+    filter: opacity(0.6);
+  }
+}
+
+.important {
+  font-weight: 300;
+  color: $primary-color;
+}
+
+.jobs:after {
+  content: '';
+  animation: changetext 8s infinite linear;
+  display: block;
+}
+
+@keyframes changetext {
+  0%, 100% { content: 'full-stack web developer'; }
+  33% { content: 'mechatronics engineer'; }
+  66% { content: 'tech enthusiast'; }
+}
