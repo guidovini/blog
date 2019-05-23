@@ -21,6 +21,7 @@ const Header = (props) => {
         <ul className={headerStyles.navList}>
           <li><Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to='/'>Home</Link></li>
           <li><Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to='/about'>About</Link></li>
+          <li><Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to='/skills'>Skills</Link></li>
           <li><Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to='/projects'>Projects</Link></li>
           <li><Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to='/blog'>Articles</Link></li>
         </ul>

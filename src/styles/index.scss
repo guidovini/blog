@@ -385,7 +385,9 @@ p {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 1.5rem;
+  line-height: 2rem;
+  font-size: 1.2rem;
 }
 figure {
   margin-left: 0;
@@ -501,6 +503,7 @@ b {
   font-weight: bold;
 }
 strong {
+  color: $dark-gray;
   font-weight: bold;
 }
 dt {

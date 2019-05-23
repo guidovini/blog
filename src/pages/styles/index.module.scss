@@ -13,10 +13,6 @@
   text-align: center;
 }
 
-strong {
-  color: $primary-color;
-}
-
 .logos {
   display: flex;
 
@@ -42,8 +38,10 @@ strong {
 
 .jobs:after {
   content: '';
-  animation: changetext 10s infinite linear;
+  animation: changetext 8s infinite linear;
   display: block;
+  font-weight: bold;
+  color: $primary-color;
 }
 
 @keyframes changetext {
