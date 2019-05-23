@@ -42,12 +42,12 @@ strong {
 
 .jobs:after {
   content: '';
-  animation: changetext 8s infinite linear;
+  animation: changetext 10s infinite linear;
   display: block;
 }
 
 @keyframes changetext {
   0%, 100% { content: 'full-stack web developer'; }
-  33% { content: 'mechatronics engineer'; }
-  66% { content: 'tech enthusiast'; }
+  40% { content: 'mechatronics engineer'; }
+  70% { content: 'tech enthusiast'; }
 }

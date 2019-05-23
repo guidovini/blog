@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Guido Santillan`,
-    author: `Guido Santillan Arias`,
+    title: `Guido Santillán`,
+    author: `Guido Santillán Arias`,
     year: '2019',
     description: `Guido Santillan | Full Stack Developer`,
     siteUrl: `https://adoring-swanson-086160.netlify.com/`,
