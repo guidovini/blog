@@ -44,7 +44,9 @@ template {
 }
 a {
   background-color: transparent;
+  text-decoration: none;
   -webkit-text-decoration-skip: objects;
+  box-shadow: none;
 }
 a:active,
 a:hover {
@@ -203,7 +205,7 @@ html {
   box-sizing: inherit;
 }
 body {
-  color: hsla(0, 0%, 0%, 0.8);
+  color: $dark-gray;
   font-family: Roboto, sans-serif;
   font-weight: normal;
   word-wrap: break-word;

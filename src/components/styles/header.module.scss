@@ -4,18 +4,13 @@
   padding: 1rem 0 3rem;
 
   display: flex;
+  justify-content: flex-end;
 }
 
 .title {
-  color: $strong-gray;
+  color: $dark-gray;
   font-size: 3rem;
   text-decoration: none;
-}
-
-.nav {
-  display: flex;
-  justify-content: flex-end;
-  align-content: center;
 }
 
 .nav-list {
