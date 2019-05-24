@@ -16,8 +16,7 @@ const SkillsPage = () => {
 
       <p>
         My projects include web applications with dynamic web content, live content update, REST API calls, database storage, user authentication. 
-        You can check them out at 
-        <a href="/projects" target="_blank" rel="noopener noreferrer">www.guidosantillan.com/projects</a>
+        You can check them out <a href="/projects" target="_blank" rel="noopener noreferrer">here</a>.
       </p>
 
       <p>

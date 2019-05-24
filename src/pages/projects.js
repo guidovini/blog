@@ -3,6 +3,7 @@ import React from 'react'
 import Layout from '../components/layout'
 import Head from '../components/head'
 import Project from '../components/project'
+import ComingSoon from '../components/coming-soon'
 
 const projects = [
   {
@@ -20,6 +21,8 @@ const projects = [
   } 
 ]
 
+const renderProjects = false
+
 const ProjectsPage = () => {
   return (
     <Layout>
@@ -27,11 +30,13 @@ const ProjectsPage = () => {
     
       <h1>Projects</h1>
 
-      {projects.map(project => {
-        return (
-          <Project title={project.title} info={project.info} tech={project.tech}/>
-        )
-      })}
+      {
+        renderProjects 
+          ? projects.map(project => (
+              <Project title={project.title} info={project.info} tech={project.tech}/>
+            ))
+          : <ComingSoon />
+      }
 
     </Layout>
   )

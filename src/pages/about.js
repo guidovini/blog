@@ -16,19 +16,18 @@ const AboutPage = () => {
         A fast learner who adapts quickly to assess an organization’s needs.
       </p>
 
-      <h2>My Goals</h2>
+      <h2>My Goal</h2>
       <p>
-        My goal is to merge these knowledge areas into a unique profile which can develop innovative products and solutions to important problems.
+        My goal is to combine these technical knowledge areas into a specialized profile which can develop innovative products and solutions using multiple points of view among various tech fields.
       </p>
       <p>
-        I am actively looking forward to expanding my knowledge, improve my skills and obtain relevant experience in the IT industry in order to develop world-changing solutions.
+        I am actively looking forward to expanding my knowledge, improve my skills and obtain relevant experience in the IT industry in order to help develop world-changing solutions.
       </p>
 
       <p style={{ textAlign: 'center' }}>
         I
         <span role="img" aria-label="love"> ❤️ </span> 
-        <span role="img" aria-label="pc"> 🖥️ </span>
-        building,
+        pc building,
         <span role="img" aria-label="online-gamming"> 🎮 </span>
         , 
         <span role="img" aria-label="watching movies"> 🍿 </span>

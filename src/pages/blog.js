@@ -3,6 +3,7 @@ import { Link, graphql, useStaticQuery } from 'gatsby'
 
 import Layout from '../components/layout'
 import Head from '../components/head'
+import ComingSoon from '../components/coming-soon';
 
 import blogStyles from './styles/blog.module.scss'
 
@@ -28,22 +29,30 @@ const BlogPage = () => {
   )
   const posts = data.allContentfulBlogPost.edges
 
+  const renderBlog = false
+
   return (
     <Layout>
       <Head title="Blog" />
+      
       <h1>Blog</h1>
-      <ol className={blogStyles.posts}>
-        {posts.map(post => {
-          return (
-            <li className={blogStyles.post}>
-              <Link to={`/blog/${post.node.slug}`}>
-                <h2>{post.node.title}</h2>
-                <p>{post.node.publishedDate}</p>
-              </Link>
-            </li>
-          )
-        })}
-      </ol>
+
+      {
+        renderBlog
+          ? posts.map(post => {
+              return (
+                <ol className={blogStyles.posts}>
+                  <li className={blogStyles.post}>
+                    <Link to={`/blog/${post.node.slug}`}>
+                      <h2>{post.node.title}</h2>
+                      <p>{post.node.publishedDate}</p>
+                    </Link>
+                  </li>
+                </ol>
+              )
+            })
+          : <ComingSoon />
+      }
       
     </Layout>
   )

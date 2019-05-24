@@ -15,12 +15,11 @@ const BlogIndex = () => {
     <Layout header={false}>
       <Head title="Home" />
       <div className={indexStyles.main}>
-        <h2 className={indexStyles.text}>
-          I'm <Link to='/about'><strong className={indexStyles.important}>Guido Santillán</strong></Link>
-          , a <Link to='/projects'><strong className={indexStyles.jobs}></strong></Link>
-          currently living in <strong className={indexStyles.important}>Quito</strong>
-          , Ecuador
-        </h2>
+        <h1 className={indexStyles.text}>
+          I'm <Link to='/about' className={indexStyles.important}>Guido Santillán</Link>
+          , a <Link to='/projects' className={indexStyles.jobs}></Link> currently living in <strong className={indexStyles.important}>Quito</strong>
+          , Ecuador.
+        </h1>
         
         <div className={indexStyles.logos}>
           <a href="https://github.com/guidosantillan01" target="_blank" rel="noopener noreferrer">
