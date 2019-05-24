@@ -20,6 +20,9 @@ const Footer = () => {
   return (
     <footer className={footerStyles.footer}>
       <p className={footerStyles.footerText}>Copyright © {metadata.year} | {metadata.author}</p>
+      <p className={footerStyles.footerMadeWith}>Made with
+        <a href="https://www.gatsbyjs.org/" target="_blank" rel="noopener noreferrer"> GatsbyJS</a>
+      </p>
     </footer>
   )
 }

@@ -1,8 +1,17 @@
 .footer {
   margin-top: 3rem;
+
+  display: flex;
 }
 
 .footer-text {
-  // font-style: italic;
   font-size: 0.95rem;
+
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.footer-made-with {
+  font-size: 0.95rem;
+  text-align: end;
 }
