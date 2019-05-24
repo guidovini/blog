@@ -235,7 +235,7 @@ h1 {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: 500;
   text-rendering: optimizeLegibility;
-  font-size: 2.25rem;
+  font-size: 2.5rem;
   line-height: 1.1;
 }
 h2 {
@@ -388,6 +388,7 @@ p {
   margin-bottom: 1.5rem;
   line-height: 2rem;
   font-size: 1.2rem;
+  font-weight: 300;
 }
 figure {
   margin-left: 0;
@@ -504,7 +505,7 @@ b {
 }
 strong {
   color: $dark-gray;
-  font-weight: bold;
+  font-weight: 500;
 }
 dt {
   font-weight: bold;
