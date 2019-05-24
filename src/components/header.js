@@ -1,19 +1,19 @@
 import React from 'react'
-import { Link, graphql, useStaticQuery } from 'gatsby'
+import { Link } from 'gatsby'
+// import { graphql, useStaticQuery } from 'gatsby'
 
 import headerStyles from './styles/header.module.scss'
-import logo from '../../static/gs100.png'
 
 const Header = (props) => {
-  const data = useStaticQuery(graphql`
-    query {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `)
+  // const data = useStaticQuery(graphql`
+  //   query {
+  //     site {
+  //       siteMetadata {
+  //         title
+  //       }
+  //     }
+  //   }
+  // `)
 
   return (
     <header className={headerStyles.header}>

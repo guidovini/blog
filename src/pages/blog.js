@@ -7,8 +7,7 @@ import Head from '../components/head'
 import blogStyles from './styles/blog.module.scss'
 
 const BlogPage = () => {
-  const data = useStaticQuery(graphql
-  `
+  const data = useStaticQuery(graphql`
     query {
       allContentfulBlogPost (
         sort: {

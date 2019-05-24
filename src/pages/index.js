@@ -23,10 +23,10 @@ const BlogIndex = () => {
         </h2>
         
         <div className={indexStyles.logos}>
-          <a href="https://github.com/guidosantillan01" target="_blank">
+          <a href="https://github.com/guidosantillan01" target="_blank" rel="noopener noreferrer">
             <img className={indexStyles.logo} alt="github logo" src={githubLogo} />
           </a>
-          <a href="https://www.linkedin.com/in/guido92/" target="_blank">
+          <a href="https://www.linkedin.com/in/guido92/" target="_blank" rel="noopener noreferrer">
             <img className={indexStyles.logo} alt="linkedin logo" src={linkedinLogo} />
           </a>
           <a href="mailto:hello@guidosantillan.com" >

@@ -40,6 +40,7 @@ function Bio() {
             <p>
               Personal blog by <strong>{author}</strong>.
               Solutions to everyday problems
+              {social.github}
             </p>
           </div>
         )
@@ -61,7 +62,7 @@ const bioQuery = graphql`
       siteMetadata {
         author
         social {
-          twitter
+          github
         }
       }
     }
