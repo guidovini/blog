@@ -16,9 +16,7 @@ const BlogIndex = () => {
       <Head title="Home" />
       <div className={indexStyles.main}>
         <h1 className={indexStyles.text}>
-          I'm <Link to='/about' className={indexStyles.important}>Guido Santillán</Link>
-          , a <Link to='/projects' className={indexStyles.jobs}></Link> currently living in <strong className={indexStyles.important}>Quito</strong>
-          , Ecuador.
+          I'm <Link to='/about' className={indexStyles.important}>Guido Santillán</Link>, a <Link to='/projects' className={indexStyles.jobs}></Link> currently living in <Link to='/contact' className={indexStyles.important}>Quito</Link>, Ecuador.
         </h1>
         
         <div className={indexStyles.logos}>
