@@ -1,14 +1,17 @@
-import React from 'react'
+import React from "react"
 
-import Layout from '../components/layout'
-import Head from '../components/head'
+import Layout from "../components/layout"
+import Head from "../components/head"
 
 const Contact = () => {
   return (
     <Layout>
-      <Head title="About Me"/>
+      <Head title="About Me" />
       <h1>Contact</h1>
-      <p>Contact me directly, send your email to <a href="mailto:hello@guidosantillan.com">hello@guidosantillan.com</a>.</p>
+      <p>
+        Contact me directly, send your email to{" "}
+        <a href="mailto:hello@guidosantillan.com">hello@guidosantillan.com</a>.
+      </p>
     </Layout>
   )
 }

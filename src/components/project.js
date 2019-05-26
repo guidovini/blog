@@ -1,6 +1,6 @@
-import React from 'react'
+import React from "react"
 
-const Project = (props) => {
+const Project = props => {
   return (
     <div>
       <h2>{props.title}</h2>

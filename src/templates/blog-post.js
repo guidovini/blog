@@ -66,7 +66,6 @@ class BlogPostTemplate extends React.Component {
             )}
           </li>
         </ul>
-        
       </Layout>
     )
   }
