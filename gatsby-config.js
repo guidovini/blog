@@ -12,6 +12,12 @@ module.exports = {
     },
   },
   plugins: [
+    {
+      resolve: 'gatsby-plugin-html-attributes',
+      options: {
+        lang: 'en'
+      }
+    },
     'gatsby-plugin-react-helmet',
     {
       resolve: 'gatsby-source-contentful',
@@ -80,7 +86,6 @@ module.exports = {
       },
     },
     `gatsby-plugin-offline`,
-    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-plugin-typography`,
       options: {
