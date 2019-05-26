@@ -38,8 +38,8 @@ function Bio() {
               }}
             />
             <p>
-              Personal blog by <strong>{author}</strong>. Solutions to everyday
-              problems
+              Personal blog by <strong>{author}</strong>.
+              Solutions to everyday problems
               {social.github}
             </p>
           </div>
