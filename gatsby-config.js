@@ -4,7 +4,7 @@ module.exports = {
     author: `Guido Santillán Arias`,
     year: '2019',
     description: `Guido Santillan | Full Stack Developer`,
-    siteUrl: `https://adoring-swanson-086160.netlify.com/`,
+    siteUrl: `https://www.guidosantillan.com/`,
     social: {
       twitter: 'guidosantillan01',
       linkedin: 'guido92',
@@ -12,12 +12,6 @@ module.exports = {
     },
   },
   plugins: [
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: "UA-4790950-2",
-      },
-    },
     {
       resolve: 'gatsby-plugin-html-attributes',
       options: {
@@ -75,7 +69,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        //trackingId: `ADD YOUR TRACKING ID HERE`,
+        trackingId: "UA-4790950-2",
       },
     },
     `gatsby-plugin-feed`,
