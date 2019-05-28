@@ -10,7 +10,7 @@ const Contact = () => {
       <h1>Contact</h1>
       <p>
         Contact me directly, send your email to{" "}
-        <a href="mailto:hello@guidosantillan.com">hello@guidosantillan.com</a>.
+        <a href="mailto:info@guidosantillan.com">info@guidosantillan.com</a>.
       </p>
     </Layout>
   )

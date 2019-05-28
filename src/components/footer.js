@@ -21,7 +21,7 @@ const Footer = () => {
     <footer className={footerStyles.footer}>
       <p className={footerStyles.footerText}>
         Copyright © {metadata.year} |{" "}
-        <a href="mailto:hello@guidosantillan.com">{metadata.author}</a>
+        <a href="mailto:info@guidosantillan.com">{metadata.author}</a>
       </p>
       <p className={footerStyles.footerMadeWith}>
         Made with

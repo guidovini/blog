@@ -50,7 +50,7 @@ const BlogIndex = () => {
               src={linkedinLogo}
             />
           </a>
-          <a href="mailto:hello@guidosantillan.com">
+          <a href="mailto:info@guidosantillan.com">
             <img
               className={indexStyles.logo}
               alt="email logo"
