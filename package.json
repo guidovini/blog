@@ -1,12 +1,8 @@
 {
-  "name": "gatsby-starter-blog",
-  "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
-  "version": "0.1.0",
+  "name": "blog",
+  "description": "Guido Santillan's personal blog",
+  "version": "1.0.0",
   "author": "Guido Santillan <guidosantillan01@gmail.com>",
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
-  },
   "dependencies": {
     "@contentful/rich-text-react-renderer": "^13.2.0",
     "gatsby": "^2.3.34",
@@ -44,16 +40,11 @@
     "env-cmd": "^8.0.2",
     "prettier": "^1.16.4"
   },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
   "keywords": [
     "gatsby"
   ],
   "license": "MIT",
   "main": "n/a",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
-  },
   "scripts": {
     "build": "env-cmd .env.production gatsby build",
     "develop": "env-cmd .env.development gatsby develop",
