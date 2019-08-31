@@ -22,9 +22,9 @@ const BlogIndex = () => {
           </Link>
           , a <strong className={indexStyles.jobs} /> currently living in{" "}
           <Link to="/contact" className={indexStyles.important}>
-            Quito
+            Berlin
           </Link>
-          , Ecuador.
+          , Germany.
         </h1>
 
         <div className={indexStyles.logos}>
