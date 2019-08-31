@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import Head from "../components/head"
+import SEO from '../components/seo'
 
 import indexStyles from "./styles/index.module.scss"
 
@@ -14,6 +15,10 @@ const BlogIndex = () => {
   return (
     <Layout header={false}>
       <Head title="Home" />
+      <SEO
+        title="Home"
+        description="I'm a Full-stack Web Developer and Mechatronics Engineer currently living in Berlin."
+      />
       <div className={indexStyles.main}>
         <h1 className={indexStyles.text}>
           I'm{" "}
