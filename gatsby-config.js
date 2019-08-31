@@ -1,32 +1,32 @@
 module.exports = {
   siteMetadata: {
-    title: `Guido Santillán`,
+    title: `Guido Santillán Personal Website`,
     author: `Guido Santillán`,
-    year: "2019",
+    year: '2019',
     description: `Full Stack Developer | Mechatronics Engineer | Tech Enthusiast`,
     siteUrl: `https://www.guidosantillan.com/`,
     social: {
-      twitter: "guidosantillan01",
-      linkedin: "guido92",
-      github: "guidosantillan01",
+      twitter: 'guidosantillan01',
+      linkedin: 'guido92',
+      github: 'guidosantillan01'
     },
   },
   plugins: [
     {
-      resolve: "gatsby-plugin-html-attributes",
+      resolve: 'gatsby-plugin-html-attributes',
       options: {
-        lang: "en",
-      },
+        lang: 'en'
+      }
     },
-    "gatsby-plugin-react-helmet",
+    'gatsby-plugin-react-helmet',
     {
-      resolve: "gatsby-source-contentful",
+      resolve: 'gatsby-source-contentful',
       options: {
         spaceId: process.env.CONTENTFUL_SPACE_ID,
-        accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
-      },
+        accessToken: process.env.CONTENTFUL_ACCESS_TOKEN
+      }
     },
-    "gatsby-plugin-sass",
+    'gatsby-plugin-sass',
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -49,7 +49,7 @@ module.exports = {
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 750,
-              linkImagesToOriginal: false,
+              linkImagesToOriginal: false
             },
           },
           {
