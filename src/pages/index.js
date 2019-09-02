@@ -17,7 +17,7 @@ const BlogIndex = () => {
       <Head title="Home" />
       <SEO
         title="Home"
-        description="I'm a Full-stack Web Developer and Mechatronics Engineer currently living in Berlin."
+        description="I'm Guido Santillan, a full-stack web developer and mechatronics engineer currently living in Berlin, Germany."
       />
       <div className={indexStyles.main}>
         <h1 className={indexStyles.text}>

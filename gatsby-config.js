@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Guido Santillán`,
-    author: `Guido Santillán`,
+    title: `Guido Santillan`,
+    author: `Guido Santillan`,
     year: '2019',
     description: `Full Stack Developer | Mechatronics Engineer | Tech Enthusiast`,
     siteUrl: `https://www.guidosantillan.com/`,
