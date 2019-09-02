@@ -23,7 +23,7 @@ const BlogIndex = () => {
         <h1 className={indexStyles.text}>
           I'm{" "}
           <Link to="/about" className={indexStyles.important}>
-            Guido Santillán
+            Guido Santillan
           </Link>
           , a <strong className={indexStyles.jobs} /> currently living in{" "}
           <Link to="/contact" className={indexStyles.important}>
