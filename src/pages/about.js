@@ -11,7 +11,7 @@ const AboutPage = () => {
       <h1>About me</h1>
       <p>
         I am a full-stack web developer/mechatronics engineer/tech enthusiast
-        based in Quito, Ecuador. I am passionate about technology and its use to
+        based in Berlin, Germany. I am passionate about technology and its use to
         improve and ease human life quality. I use a multi-disciplined approach
         to solve problems. A fast learner who adapts quickly to assess an
         organization’s needs.
