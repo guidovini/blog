@@ -7,23 +7,36 @@ import ComingSoon from "../components/coming-soon"
 
 const projects = [
   {
-    title: "This is project 1",
-    info: "This is info 1",
-    tech: "This is the tech 1",
+    title: "Syder Ideas",
+    description: "Store your ideas in an intuitive way.",
+    tech: ["js", "react", "node", "express"],
+    category: "dev",
+    imageUrl: "../static/projects/dev/syder-ideas-main.png",
   },
   {
-    title: "This is project 2",
-    info: "This is info 2",
-    tech: "This is tech 2",
+    title: "Expofranquicias",
+    description: "Find LatinAmerican franchises here.",
+    tech: ["react", "gatsby", "graphql"],
+    category: "dev",
+    imageUrl: "../static/projects/dev/expofranquicias-main.png",
   },
   {
-    title: "This is project 3",
-    info: "This is info 3",
-    tech: "This is tech 3",
+    title: "Robot controlled by Human Motion",
+    description: "It uses KINECT to capture your movement.",
+    tech: ["arduino", "processing"],
+    category: "mechatronics",
+    imageUrl: "../static/projects/mechatronics/robot-main.png",
+  },
+  {
+    title: "Image Detection of Drivers",
+    description: "Kaggle",
+    tech: ["pytorch", "python"],
+    category: "AI",
+    imageUrl: "../static/projects/others/deep-learning-main.png",
   },
 ]
 
-const renderProjects = false
+const renderProjects = true
 
 const ProjectsPage = () => {
   return (
@@ -33,11 +46,13 @@ const ProjectsPage = () => {
       <h1>Projects</h1>
 
       {renderProjects ? (
-        projects.map(project => (
+        projects.map(({ title, description, tech, category }) => (
           <Project
-            title={project.title}
-            info={project.info}
-            tech={project.tech}
+            key={title}
+            title={title}
+            description={description}
+            tech={tech}
+            category={category}
           />
         ))
       ) : (

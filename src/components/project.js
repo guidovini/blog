@@ -1,12 +1,14 @@
 import React from "react"
 
+import projectStyles from "./styles/project.module.scss"
+
 const Project = props => {
   return (
-    <div>
-      <h2>{props.title}</h2>
-      <p>{props.info}</p>
-      <h3>Technologies: </h3>
-      <p>{props.tech}</p>
+    <div className={projectStyles.container}>
+      <h2 className={projectStyles.title}>{props.title}</h2>
+      <p className={projectStyles.description}>{props.description}</p>
+      <h4 className={projectStyles.techTitle}>Technologies: </h4>
+      <p className={projectStyles.tech}>{props.tech}</p>
     </div>
   )
 }
