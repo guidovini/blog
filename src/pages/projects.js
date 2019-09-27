@@ -12,6 +12,8 @@ const projects = [
     tech: ["js", "react", "node", "express"],
     category: "dev",
     imageUrl: "../static/projects/dev/syder-ideas-main.png",
+    githubUrl: "https://github.com/guidosantillan01/syder-ideas",
+    liveUrl: "https://syder-ideas-client.herokuapp.com/",
   },
   {
     title: "Expofranquicias",
@@ -19,6 +21,8 @@ const projects = [
     tech: ["react", "gatsby", "graphql"],
     category: "dev",
     imageUrl: "../static/projects/dev/expofranquicias-main.png",
+    githubUrl: undefined,
+    liveUrl: "https://expofranquiciasecuador.com/franquicias-disponibles",
   },
   {
     title: "Robot controlled by Human Motion",
@@ -26,6 +30,8 @@ const projects = [
     tech: ["arduino", "processing"],
     category: "mechatronics",
     imageUrl: "../static/projects/mechatronics/robot-main.png",
+    githubUrl: undefined,
+    liveUrl: undefined,
   },
   {
     title: "Image Detection of Drivers",
@@ -33,6 +39,8 @@ const projects = [
     tech: ["pytorch", "python"],
     category: "AI",
     imageUrl: "../static/projects/others/deep-learning-main.png",
+    githubUrl: "https://github.com/guidosantillan01/pytorch-distracted-drivers",
+    liveUrl: undefined,
   },
 ]
 
@@ -46,15 +54,19 @@ const ProjectsPage = () => {
       <h1>Projects</h1>
 
       {renderProjects ? (
-        projects.map(({ title, description, tech, category }) => (
-          <Project
-            key={title}
-            title={title}
-            description={description}
-            tech={tech}
-            category={category}
-          />
-        ))
+        projects.map(
+          ({ title, description, tech, category, githubUrl, liveUrl }) => (
+            <Project
+              key={title}
+              title={title}
+              description={description}
+              tech={tech}
+              category={category}
+              githubUrl={githubUrl}
+              liveUrl={liveUrl}
+            />
+          )
+        )
       ) : (
         <ComingSoon />
       )}

@@ -1,7 +1,8 @@
 .container {
   background: #eee;
 
-  padding: 1rem;
+  padding: 1.2rem;
+  padding-bottom: 0.4rem;
   margin-bottom: 1.6rem;
 }
 
@@ -19,4 +20,19 @@
 
 .tech {
   margin-bottom: 0.8rem;
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.t {
+  font-family: monospace;
+
+  background: blueviolet;
+  color: #eef;
+
+  padding: 0.25rem;
+  margin: 0;
+  margin-right: 0.4rem;
 }
