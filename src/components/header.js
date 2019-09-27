@@ -61,7 +61,7 @@ const Header = props => {
               activeClassName={headerStyles.activeNavItem}
               to="/blog"
             >
-              Articles
+              Blog
             </Link>
           </li>
         </ul>
