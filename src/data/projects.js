@@ -76,7 +76,7 @@ const projects = [
     title: "Flower Classification using CNNs",
     description:
       "Use deep learning with convolutional neural networks to classificate flowers. For the PyTorch Scholarship Challenge from Udacity.",
-    tech: ["pytorch", "python"],
+    tech: ["python", "pytorch"],
     category: "ai",
     // imageUrl: "../static/projects/others/deep-learning-main.png",
     githubUrl:
