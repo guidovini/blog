@@ -6,22 +6,27 @@ const Project = props => {
   return (
     <div className={projectStyles.container}>
       <h2 className={projectStyles.title}>{props.title}</h2>
-      {props.githubUrl && (
-        <a href={props.githubUrl} target="_blank" rel="noopener noreferrer">
-          Github
-        </a>
-      )}
 
-      {!props.githubUrl || (props.liveUrl && <span> | </span>)}
+      <div className={projectStyles.link}>
+        {props.githubUrl && (
+          <a href={props.githubUrl} target="_blank" rel="noopener noreferrer">
+            Github
+          </a>
+        )}
 
-      {props.liveUrl && (
-        <a href={props.liveUrl} target="_blank" rel="noopener noreferrer">
-          Demo
-        </a>
-      )}
+        {!props.githubUrl || (props.liveUrl && <span> | </span>)}
+
+        {props.liveUrl && (
+          <a href={props.liveUrl} target="_blank" rel="noopener noreferrer">
+            Demo
+          </a>
+        )}
+      </div>
 
       <p className={projectStyles.description}>{props.description}</p>
+
       <h4 className={projectStyles.techTitle}>Technologies: </h4>
+
       <div className={projectStyles.tech}>
         {props.tech.map(t => {
           return (
