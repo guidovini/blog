@@ -37,6 +37,8 @@
 .tech-title {
   margin-bottom: 0.4rem;
 
+  color: $secondary-color;
+  font-weight: 400;
   letter-spacing: 0.1rem;
 }
 
@@ -55,7 +57,6 @@
   background: #eff;
   color: $secondary-color;
 
-  border-style: solid;
   border-radius: 0.5rem;
   border-width: 0.5px;
 
