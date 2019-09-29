@@ -9,17 +9,29 @@ const ProjectList = () => {
   return (
     <div className={projectListStyles.container}>
       {projects.map(
-        ({ title, description, tech, category, githubUrl, liveUrl }) => (
-          <Project
-            key={title}
-            title={title}
-            description={description}
-            tech={tech}
-            category={category}
-            githubUrl={githubUrl}
-            liveUrl={liveUrl}
-          />
-        )
+        ({
+          title,
+          description,
+          tech,
+          category,
+          githubUrl,
+          liveUrl,
+          showProject,
+        }) => {
+          return (
+            showProject && (
+              <Project
+                key={title}
+                title={title}
+                description={description}
+                tech={tech}
+                category={category}
+                githubUrl={githubUrl}
+                liveUrl={liveUrl}
+              />
+            )
+          )
+        }
       )}
     </div>
   )
