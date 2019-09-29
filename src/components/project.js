@@ -7,7 +7,7 @@ const Project = props => {
     <div className={projectStyles.container}>
       <h2 className={projectStyles.title}>{props.title}</h2>
       {props.githubUrl && (
-        <a href={props.githubUrl} target="_blank">
+        <a href={props.githubUrl} target="_blank" rel="noopener noreferrer">
           Github
         </a>
       )}
@@ -15,7 +15,7 @@ const Project = props => {
       {!props.githubUrl || (props.liveUrl && <span> | </span>)}
 
       {props.liveUrl && (
-        <a href={props.liveUrl} target="_blank">
+        <a href={props.liveUrl} target="_blank" rel="noopener noreferrer">
           Demo
         </a>
       )}
