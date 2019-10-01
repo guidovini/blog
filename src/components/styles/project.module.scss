@@ -1,22 +1,50 @@
 @import "../../styles/variables";
 
 .container {
-  background: #eee;
-  // background-image: url(../../../static/projects/syder-ideas-1.png);
-  // opacity: 0;
-
-  padding: 1.2rem;
-  padding-bottom: 0.4rem;
-  margin-bottom: 1.6rem;
-
   width: 20.5rem;
 
+  // position: relative;
+  // opacity: 0;
   // transition: all 0.3s ease-in;
 
   // &:hover {
   //   background: #eee;
   //   opacity: 1;
   // }
+}
+
+.container-inner {
+  // position: relative;
+  // width: 100%;
+  // height: 100%;
+  // transition: transform 0.8s;
+  margin: 0;
+}
+
+.image {
+  // position: absolute;
+  // width: 100%;
+  // height: 100%;
+  // backface-visibility: hidden;
+
+  // border-style: solid;
+}
+
+img {
+  margin: 0;
+}
+
+.info {
+  // position: absolute;
+  // width: 100%;
+  // height: 100%;
+  // backface-visibility: hidden;
+
+  background: #eee;
+
+  padding: 1.2rem;
+  padding-bottom: 0.4rem;
+  margin-bottom: 1.6rem;
 }
 
 .title {

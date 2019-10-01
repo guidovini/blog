@@ -14,6 +14,7 @@ const ProjectList = () => {
           description,
           tech,
           category,
+          imageUrl,
           githubUrl,
           liveUrl,
           showProject,
@@ -28,6 +29,7 @@ const ProjectList = () => {
                 category={category}
                 githubUrl={githubUrl}
                 liveUrl={liveUrl}
+                imageUrl={imageUrl}
               />
             )
           )
