@@ -6,6 +6,8 @@ const Project = props => {
   return (
     <div className={projectStyles.container}>
       <div className={projectStyles.containerInner}>
+        <div className={projectStyles.categoryBanner}>{props.category}</div>
+
         {props.imageUrl ? (
           <img
             src={require("../../static/projects/" + props.imageUrl)}
