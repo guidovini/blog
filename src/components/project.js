@@ -13,7 +13,7 @@ const Project = props => {
           />
         ) : (
           <img
-            src={require("../../static/projects/placeholder.png")}
+            src={require("../../static/projects/placeholder.jpg")}
             className={projectStyles.image}
           />
         )}
