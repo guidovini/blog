@@ -6,13 +6,17 @@ const Project = props => {
   return (
     <div className={projectStyles.container}>
       <div className={projectStyles.containerInner}>
-        <div className={projectStyles.image}>
-          {props.imageUrl ? (
-            <img src={require("../../static/projects/" + props.imageUrl)} />
-          ) : (
-            <img src={require("../../static/projects/placeholder.png")} />
-          )}
-        </div>
+        {props.imageUrl ? (
+          <img
+            src={require("../../static/projects/" + props.imageUrl)}
+            className={projectStyles.image}
+          />
+        ) : (
+          <img
+            src={require("../../static/projects/placeholder.png")}
+            className={projectStyles.image}
+          />
+        )}
 
         <div className={projectStyles.info}>
           <h2 className={projectStyles.title}>{props.title}</h2>

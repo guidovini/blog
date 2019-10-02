@@ -1,16 +1,18 @@
 @import "../../styles/variables";
 
 .container {
-  width: 20.5rem;
+  width: 20rem;
 
-  // position: relative;
-  // opacity: 0;
-  // transition: all 0.3s ease-in;
+  margin-bottom: 2rem;
 
-  // &:hover {
-  //   background: #eee;
-  //   opacity: 1;
-  // }
+  box-shadow: 0 1rem 2rem rgba(#000, 0.15);
+  transition: all 0.2s;
+
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    // cursor: pointer;
+  }
 }
 
 .container-inner {
@@ -18,20 +20,33 @@
   // width: 100%;
   // height: 100%;
   // transition: transform 0.8s;
-  margin: 0;
+
+  // margin: 0;
+  // display: flex;
+  // flex-direction: column;
+
+  // flex-shrink: 1;
 }
 
-.image {
+.container-image {
+  // background: #eee;
+
   // position: absolute;
   // width: 100%;
   // height: 100%;
   // backface-visibility: hidden;
 
   // border-style: solid;
+  // margin: 0;
+  // padding: 0;
+
+  // width: 40vw;
+  // flex: 1 0 auto;
 }
 
-img {
+.image {
   margin: 0;
+  width: 100%;
 }
 
 .info {
@@ -40,11 +55,11 @@ img {
   // height: 100%;
   // backface-visibility: hidden;
 
-  background: #eee;
+  // background: #eee;
 
   padding: 1.2rem;
-  padding-bottom: 0.4rem;
-  margin-bottom: 1.6rem;
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
 }
 
 .title {
@@ -90,5 +105,6 @@ img {
 
   padding: 0 0.25rem;
   margin: 0;
+  margin-top: 0.2rem;
   margin-right: 0.4rem;
 }
