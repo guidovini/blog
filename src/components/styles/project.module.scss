@@ -47,7 +47,7 @@
 .category-banner {
   background: #666;
 
-  color: white;
+  color: #eee;
   text-transform: uppercase;
   font-size: 0.8rem;
   font-weight: 300;
@@ -111,8 +111,10 @@
   font-family: monospace;
   font-size: 1rem;
 
-  background: #eff;
-  color: $secondary-color;
+  // background: #eff;
+  // color: $secondary-color;
+  color: #eff;
+  background: $secondary-color;
 
   border-radius: 0.5rem;
   border-width: 0.5px;
