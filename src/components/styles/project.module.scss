@@ -5,6 +5,8 @@
 
   margin-bottom: 2rem;
 
+  border-radius: 1rem;
+
   box-shadow: 0 1rem 2rem rgba(#000, 0.15);
   transition: all 0.2s;
 
@@ -53,9 +55,11 @@
   font-weight: 300;
   letter-spacing: 0.15rem;
 
-  padding: 0.1rem;
-  padding-right: 0.2rem;
+  padding: 0.2rem;
+  padding-right: 0.5rem;
   text-align: right;
+
+  border-radius: 1rem 1rem 0 0;
 }
 
 .image {
