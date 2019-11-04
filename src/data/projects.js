@@ -27,7 +27,7 @@ const projects = [
       "Expofranquicias is a web application where users can search for available Latinamerican franchises based on its budget, country of origin and categories.",
     tech: ["js", "react", "gatsby", "graphql"],
     category: "web development",
-    // imageUrl: "../static/projects/dev/expofranquicias-main.png",
+    imageUrl: "expofranquicias.png",
     githubUrl: undefined,
     liveUrl: "https://expofranquiciasecuador.com/franquicias-disponibles",
     showProject: true,
