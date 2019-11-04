@@ -12,11 +12,13 @@ const Project = props => {
           <img
             src={require("../../static/projects/" + props.imageUrl)}
             className={projectStyles.image}
+            alt={props.title}
           />
         ) : (
           <img
             src={require("../../static/projects/placeholder.jpg")}
             className={projectStyles.image}
+            alt="placeholder"
           />
         )}
 
