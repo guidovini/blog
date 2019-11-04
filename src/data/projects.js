@@ -2,7 +2,7 @@ const projects = [
   {
     title: "Syder Ideas",
     description:
-      "Syder Ideas is a web application where you can store your side-project ideas in an easy, intuitive and systems based way.",
+      "Syder Ideas is a web application where users can store their side-project ideas in an easy, intuitive and systems based way.",
     tech: [
       "js",
       "react",
@@ -24,7 +24,7 @@ const projects = [
   {
     title: "Expofranquicias",
     description:
-      "Expofranquicias is a web application where users can search for available Latinamerican franchises based on its budget, country of origin and categories.",
+      "Expofranquicias is a web application where users can search for available LatinAmerican franchises based on its budget, country of origin and type of business.",
     tech: ["js", "react", "gatsby", "graphql"],
     category: "web development",
     imageUrl: "expofranquicias.png",
@@ -52,7 +52,38 @@ const projects = [
     liveUrl: undefined,
     showProject: true,
   },
-
+  {
+    title: "AEFRAN",
+    description:
+      "Asociacion Ecuatoriana de Franquicias is a non-profit organization focused on developing the franchise system in Ecuador.",
+    tech: ["wordpress"],
+    category: "web development",
+    imageUrl: undefined,
+    githubUrl: undefined,
+    liveUrl: "https://www.aefran.org",
+    showProject: true,
+  },
+  {
+    title: "Ecuafranquicias",
+    description:
+      "Ecuafranquicias is the leading consulting firm focused in transforming businesses to sucessful franchises in Ecuador.",
+    tech: ["CMS"],
+    category: "web development",
+    imageUrl: undefined,
+    githubUrl: undefined,
+    liveUrl: "http://www.ecuafranquicias.com",
+    showProject: true,
+  },
+  {
+    title: "Villagran Lara",
+    description: "Business, maritime and trademark lawfirm in Ecuador",
+    tech: ["wordpress"],
+    category: "web development",
+    imageUrl: undefined,
+    githubUrl: undefined,
+    liveUrl: "http://www.villagranlara.com",
+    showProject: true,
+  },
   {
     title: "Robot controlled by Human Motion",
     description:
@@ -125,7 +156,7 @@ const projects = [
   {
     title: "Amazon Books Web Scraper",
     description:
-      "This program will scrape books from a list of Amazon links (spreadsheet). It will generate a csv file with book data.",
+      "This script will scrape books from a spreadsheet list of Amazon links. Then, it will export book data like title, author, price, rating, isbn10, isbn13 to a CSV file.",
     tech: ["python", "pandas"],
     category: "programming",
     imageUrl: "amazon-web-scraper.png",
