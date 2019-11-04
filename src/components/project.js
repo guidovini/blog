@@ -40,7 +40,7 @@ const Project = props => {
 
             {props.liveUrl && (
               <a href={props.liveUrl} target="_blank" rel="noopener noreferrer">
-                Demo
+                Website
               </a>
             )}
           </div>
